@@ -1,2 +1,2 @@
 # CrossMusicPlayer
-https://jinshulumengchuang.github.io/cmp.html
+https://jinshulumengchuang.github.io
