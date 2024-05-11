@@ -22,8 +22,7 @@ echo <<<EOF
 
 
 <div class="mdui-drawer mdui-drawer-close mdui-text-color-[mdui-color-black]" id="left-drawer">
-<a href="index.php" class="mdui-list-item mdui-ripple">Remote</a>
-<a href="local.php" class="mdui-list-item mdui-ripple">Local</a>
+<a href="hmp.html" class="mdui-list-item mdui-ripple">Local</a>
 </div>
 </div>
 <div class="mdui-container">

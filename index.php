@@ -55,6 +55,7 @@ function shunxu() {
 function play(name, id) {
    document.getElementById('play').src = 'music/' + name;
   document.getElementById('current').innerHTML = 'Playing：' + name;
+ids=id
 }
 document.getElementById("play").addEventListener('ended', function () {
        if(mode=='luanxu') {
@@ -64,12 +65,12 @@ document.getElementById("play").addEventListener('ended', function () {
        playnext();
        }
        if(mode=='shunxu') {
-       id = id + 1
+       id = ids + 1
        playnext = document.getElementById(id).onclick
        playnext();
        }
        if(mode=='xunhuan') {
-       playnext = document.getElementById(id).onclick
+       playnext = document.getElementById(ids).onclick
        playnext();
        }
    }, false);
